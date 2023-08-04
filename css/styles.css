@@ -3859,7 +3859,11 @@ input[type="button"].btn--primary:focus {
         padding-top: var(--vspace-5);
     }
     .s-about__pic {
-        display: none;
+        /* display: none;*/
+		max-width: 100%;
+        height: auto;
+		display: block;
+		margin: 0 auto;
     }
 }
 
