@@ -3843,6 +3843,10 @@ input[type="button"].btn--primary:focus {
         width: var(--vspace-4_5);
         height: var(--vspace-4_5);
         border-width: 1.4rem;
+	    max-width: 100%;
+            height: auto;
+	    display: block;
+	    margin: 0 auto;
     }
 }
 
@@ -3851,6 +3855,10 @@ input[type="button"].btn--primary:focus {
         width: var(--vspace-4);
         height: var(--vspace-4);
         border-width: 1.2rem;
+	    max-width: 100%;
+            height: auto;
+	    display: block;
+	    margin: 0 auto;
     }
 }
 
